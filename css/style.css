@@ -24,11 +24,11 @@ p {
 }
 
 .word {
-  position: absolute;
-  width: 100%;
-  opacity: 0;
-  left: 1262px;
-  top: 133px;
+    position: absolute;
+    max-width: 100%;
+    opacity: 0;
+    left: 41%;
+    top: 133px;
 }
 
 .letter {
@@ -85,6 +85,7 @@ p {
           align-items: center;
   -webkit-justify-content: center;
           justify-content: center;
+          max-width: 50%;
 }
 
 .Aligner-item--fixed {
